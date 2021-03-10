@@ -1,0 +1,27 @@
+// tsconfig for native build
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "lib": ["esnext"],
+    "types": ["react", "react-native", "jest"],
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.native.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "functions",
+    "src/web",
+    "src/**/*.web.ts"
+  ]
+}

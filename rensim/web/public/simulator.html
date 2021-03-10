@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <title>rensim</title>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex,nofollow">
+  <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCTgXyCudmG-Hq1ZotM_pXJGYN_lx-QKK8",
+      authDomain: "puyosim-web.firebaseapp.com",
+      databaseURL: "https://puyosim-web.firebaseio.com",
+      projectId: "puyosim-web",
+      storageBucket: "puyosim-web.appspot.com",
+      messagingSenderId: "792269041044"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="/bundle/bundle.web.js"></script>
+  <style type="text/css">
+    html, body, #root {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: stretch;
+    }
+    * {
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128618888-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128618888-1');
+</script>
+</body>
+</html>
